@@ -9,6 +9,8 @@ Este repositório contém dois projetos para o desafio técnico da Nexdom:
 
 ## Backend (Spring Boot)
 
+vc pode conferir a documentacao da api no arquivo swagger dentro da pasta do backend
+
 ### Pré-requisitos
 
 - Java 17  
