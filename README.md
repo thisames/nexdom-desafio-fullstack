@@ -1,4 +1,5 @@
 # Nexdom Estoque - Desafio Técnico
+![logo_navbar](https://github.com/user-attachments/assets/6e0f3b57-a1d7-4de1-a29e-66c7dbf47773)
 
 Este repositório contém dois projetos para o desafio técnico da Nexdom:
 
