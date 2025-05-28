@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: nexdom-postgres
+    environment:
+      POSTGRES_DB: nexdom_estoque
+      POSTGRES_USER: nexdom_user
+      POSTGRES_PASSWORD: nexdom123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - nexdom-network
+
+volumes:
+  postgres_data:
+
+networks:
+  nexdom-network:
+    driver: bridge
