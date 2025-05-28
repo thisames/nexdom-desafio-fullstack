@@ -15,6 +15,20 @@ Este repositório contém dois projetos para o desafio técnico da Nexdom:
 
 vc pode conferir a documentacao da api no arquivo swagger dentro da pasta do backend
 
+## Mínimo Esperado da Aplicação (Lista de Verificação)
+
+- [x] CRUD - (Create, Read, Update, Delete) de produtos;
+- [x] Efetuar entrada de produtos no estoque;
+- [x] Efetuar saída de produtos no estoque;
+- [x] Validação de saldo ao efetuar uma saída do produto:
+    - [x] Retornar mensagem específica caso não haja quantidade suficiente.
+- [x] Consulta de produtos por tipo, com:
+    - [x] Quantidade de saída;
+    - [x] Quantidade disponível.
+- [x] Consulta de lucro por produto, exibindo:
+    - [x] Quantidade total de saída;
+    - [x] Total do lucro (valor de venda – valor do fornecedor).
+
 ### Pré-requisitos
 
 - Java 17  
