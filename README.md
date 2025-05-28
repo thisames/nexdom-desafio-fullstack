@@ -39,6 +39,24 @@ spring.datasource.password=postgres
 
 ```bash
 mvn spring-boot:run
-
+```
 A API estará disponível em: http://localhost:8080
+
+
+## React
+
+### Pré-requisitos
+
+- node LTS  
+
+## Rodar a aplicação
+
+```bash
+npm install
+```
+```bash
+npm start
+```
+A API estará disponível em: http://localhost:3000
+
 
